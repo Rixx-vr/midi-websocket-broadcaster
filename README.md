@@ -5,7 +5,7 @@ This package contains a websocket server that will broadcast MIDI from a selecte
 This currently supports the selection of only one midi device, but supports multiple clients.
 
 ## Running the server
-
+```
 usage: midi-websocket-broadcaster [-h] [-H HOST] [-P PORT]
 
 Start the MIDI broadcast server.
@@ -14,6 +14,7 @@ optional arguments:
   -h, --help            show this help message and exit
   -H HOST, --host HOST  Interface to host server on (default: localhost)
   -P PORT, --port PORT  Port to host server on (default: 12345)
+```
 
 ## Using the server
 
